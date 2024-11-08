@@ -1,11 +1,11 @@
-[22:34:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:34:31] [ServerMain/INFO]: Loaded 1337 recipes
-[22:34:31] [ServerMain/INFO]: Loaded 1448 advancements
-[22:34:31] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[22:34:31] [Server thread/INFO]: Loading properties
-[22:34:31] [Server thread/INFO]: Default game type: SURVIVAL
-[22:34:31] [Server thread/INFO]: Generating keypair
-[22:34:31] [Server console handler/ERROR]: Exception handling console input
+[19:51:46] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:51:47] [ServerMain/INFO]: Loaded 1337 recipes
+[19:51:47] [ServerMain/INFO]: Loaded 1448 advancements
+[19:51:48] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[19:51:48] [Server thread/INFO]: Loading properties
+[19:51:48] [Server thread/INFO]: Default game type: SURVIVAL
+[19:51:48] [Server thread/INFO]: Generating keypair
+[19:51:48] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -22,50 +22,32 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at aqy$1.run(SourceFile:102) [server-1.21.3.jar:?]
-[22:34:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:34:32] [Server thread/INFO]: Using default channel type
-[22:34:32] [Server thread/INFO]: Preparing level "world"
-[22:34:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:34:33] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:34:33] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:34:33] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:34:33] [Server thread/INFO]: Time elapsed: 1346 ms
-[22:34:33] [Server thread/INFO]: Done (1.695s)! For help, type "help"
-[22:35:33] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:40:53] [User Authenticator #1/INFO]: UUID of player Ack3rman_ is 282c8bf0-a614-4292-9f57-d4a4361709be
-[22:40:54] [Server thread/INFO]: Ack3rman_[/98.222.243.13:53363] logged in with entity id 80 at (-23.22342831197106, 64.0, 10.801726872138342)
-[22:40:54] [Server thread/INFO]: Ack3rman_ joined the game
-[22:40:56] [User Authenticator #2/INFO]: UUID of player aboodiii_ is 7cd4418d-d16a-4168-9fea-5b69aa6b4931
-[22:40:57] [Server thread/INFO]: aboodiii_[/127.0.0.1:62473] logged in with entity id 293 at (-24.84648283556057, 64.0, 6.798220564890687)
-[22:40:57] [Server thread/INFO]: aboodiii_ joined the game
-[22:42:15] [Server thread/WARN]: Mismatch in destroy block pos: jh{x=-36, y=68, z=36} jh{x=-36, y=66, z=38}
-[22:45:44] [Server thread/INFO]: aboodiii_ has made the advancement [Monster Hunter]
-[22:46:03] [Server thread/INFO]: Ack3rman_ has made the advancement [Monster Hunter]
-[22:47:00] [Server thread/INFO]: Ack3rman_ has made the advancement [Getting an Upgrade]
-[22:48:34] [Server thread/INFO]: aboodiii_ drowned
-[22:50:39] [Server thread/INFO]: aboodiii_ drowned
-[22:51:56] [Server thread/INFO]: Ack3rman_ has made the advancement [Acquire Hardware]
-[22:53:00] [Server thread/INFO]: aboodiii_ drowned
-[23:00:22] [Server thread/INFO]: aboodiii_ has made the advancement [Acquire Hardware]
-[23:00:41] [Server thread/INFO]: Ack3rman_ has made the advancement [A Seedy Place]
-[23:06:51] [Server thread/INFO]: Ack3rman_ was slain by Zombie
-[23:07:19] [Server thread/INFO]: Ack3rman_ was slain by Zombie
-[23:07:47] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
-[23:07:47] [Server thread/INFO]: Ack3rman_ left the game
-[23:09:55] [Server thread/INFO]: aboodiii_ has made the advancement [Sweet Dreams]
-[23:10:28] [Server thread/INFO]: aboodiii_ was blown up by Creeper
-[23:13:47] [Server thread/INFO]: aboodiii_ has made the advancement [A Seedy Place]
-[23:14:37] [Server thread/INFO]: aboodiii_ lost connection: Disconnected
-[23:14:37] [Server thread/INFO]: aboodiii_ left the game
-[23:15:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:18:02] [Server thread/INFO]: Stopping the server
-[23:18:02] [Server thread/INFO]: Stopping server
-[23:18:02] [Server thread/INFO]: Saving players
-[23:18:02] [Server thread/INFO]: Saving worlds
-[23:18:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:18:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:18:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:18:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:51:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:51:48] [Server thread/INFO]: Using default channel type
+[19:51:48] [Server thread/INFO]: Preparing level "world"
+[19:51:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:51:49] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:51:49] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:51:49] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[19:51:50] [Server thread/INFO]: Time elapsed: 1307 ms
+[19:51:50] [Server thread/INFO]: Done (1.566s)! For help, type "help"
+[19:52:49] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:52:51] [User Authenticator #1/INFO]: UUID of player aboodiii_ is 7cd4418d-d16a-4168-9fea-5b69aa6b4931
+[19:52:52] [Server thread/INFO]: aboodiii_[/127.0.0.1:56532] logged in with entity id 79 at (-39.567816873152175, 67.0, 38.769931497961686)
+[19:52:52] [Server thread/INFO]: aboodiii_ joined the game
+[19:55:00] [Server thread/INFO]: aboodiii_ has made the advancement [Isn't It Iron Pick]
+[20:03:23] [Server thread/INFO]: aboodiii_ has made the advancement [Not Today, Thank You]
+[20:19:21] [Server thread/INFO]: aboodiii_ has made the advancement [Suit Up]
+[20:19:57] [Server thread/INFO]: aboodiii_ lost connection: Disconnected
+[20:19:57] [Server thread/INFO]: aboodiii_ left the game
+[20:20:02] [Server thread/INFO]: Stopping the server
+[20:20:02] [Server thread/INFO]: Stopping server
+[20:20:02] [Server thread/INFO]: Saving players
+[20:20:02] [Server thread/INFO]: Saving worlds
+[20:20:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:20:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:20:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:20:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:20:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:20:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:20:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
