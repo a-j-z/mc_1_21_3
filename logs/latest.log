@@ -1,11 +1,11 @@
-[16:05:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:05:07] [ServerMain/INFO]: Loaded 1337 recipes
-[16:05:07] [ServerMain/INFO]: Loaded 1448 advancements
-[16:05:07] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[16:05:07] [Server thread/INFO]: Loading properties
-[16:05:07] [Server thread/INFO]: Default game type: SURVIVAL
-[16:05:07] [Server thread/INFO]: Generating keypair
-[16:05:07] [Server console handler/ERROR]: Exception handling console input
+[21:02:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:02:23] [ServerMain/INFO]: Loaded 1337 recipes
+[21:02:23] [ServerMain/INFO]: Loaded 1448 advancements
+[21:02:23] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[21:02:23] [Server thread/INFO]: Loading properties
+[21:02:23] [Server thread/INFO]: Default game type: SURVIVAL
+[21:02:23] [Server thread/INFO]: Generating keypair
+[21:02:23] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -22,46 +22,27 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at aqy$1.run(SourceFile:102) [server-1.21.3.jar:?]
-[16:05:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:05:07] [Server thread/INFO]: Using default channel type
-[16:05:07] [Server thread/INFO]: Preparing level "world"
-[16:05:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:05:09] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[16:05:09] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[16:05:09] [Server thread/INFO]: Time elapsed: 984 ms
-[16:05:09] [Server thread/INFO]: Done (1.206s)! For help, type "help"
-[16:06:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[16:12:54] [User Authenticator #1/INFO]: UUID of player Ack3rman_ is 282c8bf0-a614-4292-9f57-d4a4361709be
-[16:12:55] [Server thread/INFO]: Ack3rman_[/98.222.243.13:60634] logged in with entity id 54 at (-37.86387039877861, 64.46634750372172, 23.525470836778528)
-[16:12:55] [Server thread/INFO]: Ack3rman_ joined the game
-[16:15:25] [Server thread/INFO]: Ack3rman_ has made the advancement [Sweet Dreams]
-[16:21:27] [User Authenticator #2/INFO]: UUID of player aboodiii_ is 7cd4418d-d16a-4168-9fea-5b69aa6b4931
-[16:21:28] [Server thread/INFO]: aboodiii_[/127.0.0.1:57637] logged in with entity id 2077 at (-32.5, 63.875, -17.5)
-[16:21:28] [Server thread/INFO]: aboodiii_ joined the game
-[16:35:17] [Server thread/INFO]: Ack3rman_ has made the advancement [Fishy Business]
-[16:54:44] [Server thread/INFO]: Ack3rman_ was blown up by Creeper
-[17:02:41] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
-[17:02:41] [Server thread/INFO]: Ack3rman_ left the game
-[17:28:42] [User Authenticator #3/INFO]: UUID of player Ack3rman_ is 282c8bf0-a614-4292-9f57-d4a4361709be
-[17:28:42] [Server thread/INFO]: Ack3rman_[/98.222.243.13:61221] logged in with entity id 19359 at (-36.02253421096234, 63.0, -18.97790262450831)
-[17:28:42] [Server thread/INFO]: Ack3rman_ joined the game
-[17:29:01] [Server thread/INFO]: <aboodiii_> hlelo
-[17:35:34] [Server thread/INFO]: aboodiii_ has made the advancement [The Parrots and the Bats]
-[17:43:19] [Server thread/INFO]: Ack3rman_ has made the advancement [Diamonds!]
-[18:01:06] [Server thread/INFO]: aboodiii_ has made the advancement [Ice Bucket Challenge]
-[18:21:48] [Server thread/INFO]: aboodiii_ has made the advancement [We Need to Go Deeper]
-[18:36:59] [Server thread/INFO]: aboodiii_ lost connection: Disconnected
-[18:36:59] [Server thread/INFO]: aboodiii_ left the game
-[18:37:19] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
-[18:37:19] [Server thread/INFO]: Ack3rman_ left the game
-[18:37:31] [Server thread/INFO]: Stopping the server
-[18:37:31] [Server thread/INFO]: Stopping server
-[18:37:31] [Server thread/INFO]: Saving players
-[18:37:31] [Server thread/INFO]: Saving worlds
-[18:37:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:37:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:37:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:37:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:37:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:37:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:37:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:02:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:02:23] [Server thread/INFO]: Using default channel type
+[21:02:23] [Server thread/INFO]: Preparing level "world"
+[21:02:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:02:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:02:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:02:24] [Server thread/INFO]: Time elapsed: 599 ms
+[21:02:24] [Server thread/INFO]: Done (0.761s)! For help, type "help"
+[21:03:04] [User Authenticator #1/INFO]: UUID of player Ack3rman_ is 282c8bf0-a614-4292-9f57-d4a4361709be
+[21:03:04] [Server thread/INFO]: Ack3rman_[/127.0.0.1:60560] logged in with entity id 51 at (-45.30000001192093, 58.0, -61.09659048671074)
+[21:03:04] [Server thread/INFO]: Ack3rman_ joined the game
+[21:05:07] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
+[21:05:07] [Server thread/INFO]: Ack3rman_ left the game
+[21:05:41] [Server thread/INFO]: Stopping the server
+[21:05:41] [Server thread/INFO]: Stopping server
+[21:05:41] [Server thread/INFO]: Saving players
+[21:05:41] [Server thread/INFO]: Saving worlds
+[21:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
