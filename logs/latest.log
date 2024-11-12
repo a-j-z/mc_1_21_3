@@ -1,11 +1,11 @@
-[21:02:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:02:23] [ServerMain/INFO]: Loaded 1337 recipes
-[21:02:23] [ServerMain/INFO]: Loaded 1448 advancements
-[21:02:23] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[21:02:23] [Server thread/INFO]: Loading properties
-[21:02:23] [Server thread/INFO]: Default game type: SURVIVAL
-[21:02:23] [Server thread/INFO]: Generating keypair
-[21:02:23] [Server console handler/ERROR]: Exception handling console input
+[21:54:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:54:23] [ServerMain/INFO]: Loaded 1337 recipes
+[21:54:23] [ServerMain/INFO]: Loaded 1448 advancements
+[21:54:23] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[21:54:23] [Server thread/INFO]: Loading properties
+[21:54:23] [Server thread/INFO]: Default game type: SURVIVAL
+[21:54:23] [Server thread/INFO]: Generating keypair
+[21:54:23] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -22,27 +22,38 @@ java.io.IOException: The handle is invalid
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
 	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
 	at aqy$1.run(SourceFile:102) [server-1.21.3.jar:?]
-[21:02:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:02:23] [Server thread/INFO]: Using default channel type
-[21:02:23] [Server thread/INFO]: Preparing level "world"
-[21:02:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:02:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[21:02:24] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[21:02:24] [Server thread/INFO]: Time elapsed: 599 ms
-[21:02:24] [Server thread/INFO]: Done (0.761s)! For help, type "help"
-[21:03:04] [User Authenticator #1/INFO]: UUID of player Ack3rman_ is 282c8bf0-a614-4292-9f57-d4a4361709be
-[21:03:04] [Server thread/INFO]: Ack3rman_[/127.0.0.1:60560] logged in with entity id 51 at (-45.30000001192093, 58.0, -61.09659048671074)
-[21:03:04] [Server thread/INFO]: Ack3rman_ joined the game
-[21:05:07] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
-[21:05:07] [Server thread/INFO]: Ack3rman_ left the game
-[21:05:41] [Server thread/INFO]: Stopping the server
-[21:05:41] [Server thread/INFO]: Stopping server
-[21:05:41] [Server thread/INFO]: Saving players
-[21:05:41] [Server thread/INFO]: Saving worlds
-[21:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21:05:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:05:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:54:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:54:23] [Server thread/INFO]: Using default channel type
+[21:54:23] [Server thread/INFO]: Preparing level "world"
+[21:54:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:54:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:54:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:54:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:54:25] [Server thread/INFO]: Time elapsed: 1166 ms
+[21:54:25] [Server thread/INFO]: Done (1.381s)! For help, type "help"
+[21:55:25] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:56:23] [User Authenticator #1/INFO]: UUID of player Ack3rman_ is 282c8bf0-a614-4292-9f57-d4a4361709be
+[21:56:23] [Server thread/INFO]: Ack3rman_[/98.222.243.13:62296] logged in with entity id 67 at (-32.5, 63.5625, -19.5)
+[21:56:23] [Server thread/INFO]: Ack3rman_ joined the game
+[21:56:39] [User Authenticator #2/INFO]: UUID of player aboodiii_ is 7cd4418d-d16a-4168-9fea-5b69aa6b4931
+[21:56:40] [Server thread/INFO]: aboodiii_[/127.0.0.1:50827] logged in with entity id 299 at (-36.62910635198333, 63.0, -17.778794554715375)
+[21:56:40] [Server thread/INFO]: aboodiii_ joined the game
+[22:05:03] [Server thread/INFO]: Ack3rman_ has made the advancement [The Parrots and the Bats]
+[22:31:45] [Server thread/INFO]: Ack3rman_ has made the advancement [We Need to Go Deeper]
+[22:37:55] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
+[22:37:55] [Server thread/INFO]: Ack3rman_ left the game
+[22:40:11] [Server thread/INFO]: aboodiii_ has made the advancement [A Terrible Fortress]
+[22:42:11] [Server thread/INFO]: aboodiii_ has made the advancement [Into Fire]
+[23:18:54] [Server thread/INFO]: aboodiii_ lost connection: Disconnected
+[23:18:54] [Server thread/INFO]: aboodiii_ left the game
+[23:19:05] [Server thread/INFO]: Stopping the server
+[23:19:05] [Server thread/INFO]: Stopping server
+[23:19:05] [Server thread/INFO]: Saving players
+[23:19:05] [Server thread/INFO]: Saving worlds
+[23:19:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:19:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:19:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:19:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

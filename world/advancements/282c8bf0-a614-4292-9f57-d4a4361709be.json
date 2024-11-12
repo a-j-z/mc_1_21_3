@@ -303,6 +303,8 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-11-09 16:56:09 -0600",
+      "minecraft:zombified_piglin": "2024-11-11 22:25:54 -0600",
+      "minecraft:enderman": "2024-11-11 22:32:05 -0600",
       "minecraft:spider": "2024-11-04 22:47:41 -0600",
       "minecraft:zombie": "2024-11-04 22:46:03 -0600",
       "minecraft:creeper": "2024-11-04 23:05:02 -0600",
@@ -1486,6 +1488,55 @@
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_dandelion": "2024-11-09 18:10:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-11-11 22:03:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2024-11-11 22:31:45 -0600",
+      "minecraft:warped_forest": "2024-11-11 22:31:48 -0600"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-11-11 22:31:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-11-11 22:05:03 -0600"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-11-11 22:31:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-11-11 22:03:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-11-11 22:05:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-11-11 22:03:41 -0600"
     },
     "done": true
   },
