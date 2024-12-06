@@ -1,5 +1,4 @@
 # Exclude jar executable
 
-server.jar
 push.bat
 pull.bat
