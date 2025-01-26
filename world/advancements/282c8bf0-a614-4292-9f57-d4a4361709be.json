@@ -7,17 +7,33 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:flower_forest": "2024-11-19 22:02:16 -0600",
+      "minecraft:cold_ocean": "2025-01-22 21:59:16 -0600",
       "minecraft:old_growth_pine_taiga": "2024-11-17 01:29:12 -0600",
+      "minecraft:mushroom_fields": "2025-01-22 21:59:50 -0600",
       "minecraft:forest": "2024-11-12 21:10:27 -0600",
       "minecraft:taiga": "2024-11-17 01:18:55 -0600",
-      "minecraft:river": "2024-11-04 22:44:20 -0600",
-      "minecraft:meadow": "2024-11-12 21:15:58 -0600",
-      "minecraft:snowy_plains": "2024-11-26 21:59:02 -0600",
+      "minecraft:deep_ocean": "2025-01-22 21:59:31 -0600",
       "minecraft:lush_caves": "2024-11-17 01:38:12 -0600",
+      "minecraft:frozen_river": "2025-01-22 21:57:37 -0600",
+      "minecraft:ocean": "2025-01-22 22:00:03 -0600",
+      "minecraft:jungle": "2025-01-22 22:05:44 -0600",
+      "minecraft:cherry_grove": "2025-01-22 22:16:57 -0600",
+      "minecraft:sunflower_plains": "2025-01-22 22:08:35 -0600",
+      "minecraft:birch_forest": "2025-01-22 22:00:07 -0600",
       "minecraft:old_growth_spruce_taiga": "2024-11-17 01:29:00 -0600",
+      "minecraft:bamboo_jungle": "2025-01-22 22:01:15 -0600",
+      "minecraft:flower_forest": "2024-11-19 22:02:16 -0600",
+      "minecraft:beach": "2025-01-22 22:06:24 -0600",
+      "minecraft:dark_forest": "2025-01-22 22:00:18 -0600",
+      "minecraft:sparse_jungle": "2025-01-22 22:05:35 -0600",
+      "minecraft:river": "2024-11-04 22:44:20 -0600",
+      "minecraft:snowy_plains": "2024-11-26 21:59:02 -0600",
+      "minecraft:stony_shore": "2025-01-22 22:00:37 -0600",
       "minecraft:dripstone_caves": "2024-11-14 22:02:54 -0600",
       "minecraft:snowy_taiga": "2024-11-26 21:57:59 -0600",
+      "minecraft:old_growth_birch_forest": "2025-01-22 22:00:15 -0600",
+      "minecraft:grove": "2025-01-22 22:22:25 -0600",
+      "minecraft:meadow": "2024-11-12 21:15:58 -0600",
       "minecraft:plains": "2024-11-04 22:26:14 -0600"
     },
     "done": false
@@ -315,15 +331,16 @@
       "minecraft:skeleton": "2024-11-09 16:56:09 -0600",
       "minecraft:phantom": "2024-11-17 00:25:17 -0600",
       "minecraft:zombified_piglin": "2024-11-11 22:25:54 -0600",
+      "minecraft:witch": "2024-11-19 22:04:19 -0600",
+      "minecraft:shulker": "2024-11-19 23:27:10 -0600",
       "minecraft:enderman": "2024-11-11 22:32:05 -0600",
       "minecraft:silverfish": "2024-11-17 02:00:50 -0600",
-      "minecraft:witch": "2024-11-19 22:04:19 -0600",
       "minecraft:spider": "2024-11-04 22:47:41 -0600",
       "minecraft:zombie": "2024-11-04 22:46:03 -0600",
       "minecraft:creeper": "2024-11-04 23:05:02 -0600",
       "minecraft:drowned": "2024-11-09 16:45:29 -0600",
       "minecraft:zombie_villager": "2024-11-14 21:36:45 -0600",
-      "minecraft:shulker": "2024-11-19 23:27:10 -0600"
+      "minecraft:slime": "2025-01-26 11:18:27 -0600"
     },
     "done": false
   },
@@ -2639,5 +2656,137 @@
     },
     "done": false
   },
-  "DataVersion": 4082
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-22 21:38:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-22 21:47:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-01-22 21:52:43 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-01-22 22:01:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-01-22 22:01:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-01-22 22:01:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-01-22 22:01:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-01-22 22:01:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-01-22 22:01:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-01-22 22:02:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-01-22 22:02:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-01-22 22:17:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-01-22 22:17:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-01-22 22:20:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-01-22 22:20:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-01-22 22:20:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_allium": {
+    "criteria": {
+      "has_allium": "2025-01-22 22:21:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-01-22 22:21:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-01-22 22:36:26 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_planks": {
+    "criteria": {
+      "has_log": "2025-01-23 22:19:21 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pale_oak_wood": {
+    "criteria": {
+      "has_log": "2025-01-23 22:19:21 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-01-25 19:34:22 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 4189
 }

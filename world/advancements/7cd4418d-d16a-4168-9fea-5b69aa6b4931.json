@@ -7,12 +7,14 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-01-25 19:05:05 -0600",
       "minecraft:flower_forest": "2024-11-19 22:02:19 -0600",
       "minecraft:snowy_slopes": "2024-12-05 22:08:57 -0600",
       "minecraft:beach": "2024-12-03 22:00:10 -0600",
       "minecraft:old_growth_pine_taiga": "2024-11-17 01:29:14 -0600",
       "minecraft:forest": "2024-11-09 17:25:19 -0600",
       "minecraft:taiga": "2024-11-09 18:31:58 -0600",
+      "minecraft:deep_ocean": "2025-01-25 19:05:07 -0600",
       "minecraft:river": "2024-11-04 22:29:32 -0600",
       "minecraft:snowy_plains": "2024-12-05 22:09:56 -0600",
       "minecraft:lush_caves": "2024-11-17 01:38:18 -0600",
@@ -20,9 +22,13 @@
       "minecraft:snowy_taiga": "2024-12-05 22:37:16 -0600",
       "minecraft:frozen_river": "2024-12-05 22:56:49 -0600",
       "minecraft:deep_dark": "2024-12-05 22:36:00 -0600",
+      "minecraft:ocean": "2025-01-25 19:05:06 -0600",
       "minecraft:grove": "2024-12-05 22:08:02 -0600",
+      "minecraft:swamp": "2025-01-25 19:05:50 -0600",
       "minecraft:meadow": "2024-11-09 14:19:03 -0600",
+      "minecraft:windswept_gravelly_hills": "2025-01-25 19:04:49 -0600",
       "minecraft:old_growth_spruce_taiga": "2024-11-17 01:29:51 -0600",
+      "minecraft:windswept_savanna": "2025-01-25 19:06:37 -0600",
       "minecraft:plains": "2024-11-04 21:11:55 -0600"
     },
     "done": false
@@ -3247,6 +3253,210 @@
   "minecraft:recipes/transportation/pale_oak_boat": {
     "criteria": {
       "in_water": "2024-12-06 14:11:17 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-01-22 22:26:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-01-22 22:26:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-01-22 22:26:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-01-22 22:56:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-01-22 22:56:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs": {
+    "criteria": {
+      "has_tuff_bricks": "2025-01-22 22:56:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-01-22 22:56:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+    "criteria": {
+      "has_tuff_bricks": "2025-01-22 22:56:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2025-01-22 22:56:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2025-01-22 22:56:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-23 21:29:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:pale": "2025-01-23 21:29:22 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-01-23 21:30:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-01-23 21:30:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-01-23 21:30:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2025-01-23 22:57:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-23 23:25:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-01-25 19:06:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-01-25 19:06:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-01-25 19:24:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2025-01-25 19:40:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2025-01-25 19:40:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2025-01-25 19:40:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/black_bundle": {
+    "criteria": {
+      "has_black_dye": "2025-01-26 11:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-01-26 11:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-01-26 10:50:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_black_dye": "2025-01-26 11:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-01-26 10:50:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2025-01-26 11:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2025-01-26 11:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-01-26 11:05:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2025-01-26 11:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-01-26 11:04:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-01-26 11:04:58 -0600"
     },
     "done": true
   },
