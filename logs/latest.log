@@ -1,48 +1,73 @@
-[23:05:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:05:07] [ServerMain/INFO]: Loaded 1370 recipes
-[23:05:07] [ServerMain/INFO]: Loaded 1481 advancements
-[23:05:08] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[23:05:08] [Server thread/INFO]: Loading properties
-[23:05:08] [Server thread/INFO]: Default game type: SURVIVAL
-[23:05:08] [Server thread/INFO]: Generating keypair
-[23:05:08] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
-	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at apu$1.run(SourceFile:102) [server-1.21.4.jar:?]
-[23:05:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:05:08] [Server thread/INFO]: Using default channel type
-[23:05:08] [Server thread/INFO]: Preparing level "world"
-[23:05:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:05:09] [Worker-Main-10/INFO]: Preparing spawn area: 0%
-[23:05:09] [Worker-Main-3/INFO]: Preparing spawn area: 18%
-[23:05:09] [Server thread/INFO]: Time elapsed: 556 ms
-[23:05:09] [Server thread/INFO]: Done (0.855s)! For help, type "help"
-[23:05:33] [User Authenticator #1/INFO]: UUID of player Ack3rman_ is 282c8bf0-a614-4292-9f57-d4a4361709be
-[23:05:33] [Server thread/INFO]: Ack3rman_[/127.0.0.1:57713] logged in with entity id 71 at (4190.300000011921, 121.0, 1343.699999988079)
-[23:05:33] [Server thread/INFO]: Ack3rman_ joined the game
-[23:05:45] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
-[23:05:45] [Server thread/INFO]: Ack3rman_ left the game
-[23:06:34] [Server thread/INFO]: Stopping the server
-[23:06:34] [Server thread/INFO]: Stopping server
-[23:06:34] [Server thread/INFO]: Saving players
-[23:06:34] [Server thread/INFO]: Saving worlds
-[23:06:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:06:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:06:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:06:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:06:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:06:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:06:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:29:53] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5960}
+[00:29:53] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5960}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-253, y=117, z=5960} ji{x=-253, y=116, z=5959}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:29:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=119, z=5959} ji{x=-252, y=118, z=5961}
+[00:36:07] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-252, y=126, z=5937} ji{x=-253, y=125, z=5937}
+[00:37:29] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-273, y=134, z=5924} ji{x=-273, y=135, z=5924}
+[00:37:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-287, y=142, z=5926} ji{x=-287, y=140, z=5925}
+[00:37:54] [Server thread/WARN]: Mismatch in destroy block pos: ji{x=-287, y=142, z=5926} ji{x=-287, y=140, z=5925}
+[00:53:54] [Server thread/WARN]: Trying to set block entity due@14469a9e at position ji{x=324, y=26, z=23093}, but state Block{minecraft:chest}[facing=north,type=single,waterlogged=false] does not allow it
+[00:57:33] [Server thread/INFO]: Ack3rman_ has made the advancement [Hot Stuff]
+[01:21:28] [Netty Server IO #5/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at ym.a(SourceFile:47) ~[server-1.21.4.jar:?]
+	at ym.encode(SourceFile:14) ~[server-1.21.4.jar:?]
+	at vu.a(SourceFile:26) ~[server-1.21.4.jar:?]
+	at vu.encode(SourceFile:12) ~[server-1.21.4.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at vi$2.write(SourceFile:530) ~[server-1.21.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at vi.c(SourceFile:350) ~[server-1.21.4.jar:?]
+	at vi.b(SourceFile:343) ~[server-1.21.4.jar:?]
+	at vi.a(SourceFile:325) ~[server-1.21.4.jar:?]
+	at vi.a(SourceFile:319) ~[server-1.21.4.jar:?]
+	at vi.exceptionCaught(SourceFile:170) ~[server-1.21.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.115.Final.jar:4.1.115.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+[01:27:25] [Server thread/INFO]: aboodiii_ lost connection: Disconnected
+[01:27:25] [Server thread/INFO]: aboodiii_ left the game
+[01:27:47] [Server thread/INFO]: Ack3rman_ lost connection: Disconnected
+[01:27:47] [Server thread/INFO]: Ack3rman_ left the game
+[01:28:07] [Server thread/INFO]: Stopping the server
+[01:28:07] [Server thread/INFO]: Stopping server
+[01:28:07] [Server thread/INFO]: Saving players
+[01:28:07] [Server thread/INFO]: Saving worlds
+[01:28:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:28:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:28:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
